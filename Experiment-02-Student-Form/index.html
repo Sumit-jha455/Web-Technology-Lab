@@ -1,0 +1,227 @@
+<!-- Write an HTML program to design an entry form for student details/employee information/faculty details. -->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Details Entry Form</title>
+</head>
+
+<body>
+
+    <center>
+        <h1>Student Details Entry Form</h1>
+        <hr>
+    </center>
+
+    <form>
+
+        <!-- Personal Information -->
+
+        <h2>Personal Information</h2>
+
+        <label for="name">Full Name:</label>
+
+        <input type="text" id="name" name="name"
+            placeholder="Enter your full name">
+
+        <br><br>
+
+        <label for="father">Father's Name:</label>
+
+        <input type="text" id="father" name="father"
+            placeholder="Enter father's name">
+
+        <br><br>
+
+        <label for="mother">Mother's Name:</label>
+
+        <input type="text" id="mother" name="mother"
+            placeholder="Enter mother's name">
+
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+
+        <input type="date" id="dob" name="dob">
+
+        <br><br>
+
+        <label>Gender:</label>
+
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+
+        <br><br>
+
+
+        <!-- Contact Information -->
+
+        <h2>Contact Information</h2>
+
+        <label for="email">Email:</label>
+
+        <input type="email" id="email" name="email"
+            placeholder="Enter email address">
+
+        <br><br>
+
+        <label for="phone">Mobile Number:</label>
+
+        <input type="tel" id="phone" name="phone"
+            placeholder="Enter mobile number">
+
+        <br><br>
+
+        <label for="address">Address:</label>
+
+        <br>
+
+        <textarea id="address" name="address"
+            rows="5" cols="40"
+            placeholder="Enter your address"></textarea>
+
+        <br><br>
+
+
+        <!-- Academic Information -->
+
+        <h2>Academic Information</h2>
+
+        <label for="roll">Roll Number:</label>
+
+        <input type="text" id="roll" name="roll"
+            placeholder="Enter roll number">
+
+        <br><br>
+
+        <label for="course">Course:</label>
+
+        <select id="course" name="course">
+
+            <option value="">-- Select Course --</option>
+            <option value="B.Tech">B.Tech</option>
+            <option value="BCA">BCA</option>
+            <option value="MCA">MCA</option>
+            <option value="MBA">MBA</option>
+
+        </select>
+
+        <br><br>
+
+        <label for="branch">Branch:</label>
+
+        <select id="branch" name="branch">
+
+            <option value="">-- Select Branch --</option>
+            <option value="CSE">Computer Science and Engineering</option>
+            <option value="IT">Information Technology</option>
+            <option value="ECE">Electronics and Communication Engineering</option>
+            <option value="ME">Mechanical Engineering</option>
+
+        </select>
+
+        <br><br>
+
+        <label for="semester">Semester:</label>
+
+        <select id="semester" name="semester">
+
+            <option value="">-- Select Semester --</option>
+            <option value="1">1st Semester</option>
+            <option value="2">2nd Semester</option>
+            <option value="3">3rd Semester</option>
+            <option value="4">4th Semester</option>
+            <option value="5">5th Semester</option>
+            <option value="6">6th Semester</option>
+            <option value="7">7th Semester</option>
+            <option value="8">8th Semester</option>
+
+        </select>
+
+        <br><br>
+
+        <label for="percentage">12th Percentage:</label>
+
+        <input type="number" id="percentage" name="percentage"
+            placeholder="Enter percentage"
+            min="0" max="100">
+
+        <br><br>
+
+
+        <!-- Skills -->
+
+        <h2>Skills</h2>
+
+        <label>Select your skills:</label>
+
+        <br><br>
+
+        <input type="checkbox" id="c" name="skills" value="C">
+        <label for="c">C</label>
+
+        <input type="checkbox" id="python" name="skills" value="Python">
+        <label for="python">Python</label>
+
+        <input type="checkbox" id="java" name="skills" value="Java">
+        <label for="java">Java</label>
+
+        <input type="checkbox" id="web" name="skills" value="Web Development">
+        <label for="web">Web Development</label>
+
+        <br><br>
+
+
+        <!-- Account Information -->
+
+        <h2>Account Information</h2>
+
+        <label for="username">Username:</label>
+
+        <input type="text" id="username" name="username"
+            placeholder="Enter username">
+
+        <br><br>
+
+        <label for="password">Password:</label>
+
+        <input type="password" id="password" name="password"
+            placeholder="Enter password">
+
+        <br><br>
+
+
+        <!-- Photograph -->
+
+        <label for="photo">Upload Photograph:</label>
+
+        <input type="file" id="photo" name="photo">
+
+        <br><br>
+
+
+        <!-- Buttons -->
+
+        <input type="submit" value="Submit">
+
+        <input type="reset" value="Reset">
+
+    </form>
+
+    <hr>
+
+    <center>
+        <p>© 2026 Student Registration Form</p>
+    </center>
+
+</body>
+
+</html>
