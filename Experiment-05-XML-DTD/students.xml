@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<!DOCTYPE students SYSTEM "students.dtd">
+
+<students>
+
+    <student id="S101">
+
+        <rollno>101</rollno>
+
+        <name>Sumit Kumar Jha</name>
+
+        <branch>Computer Science and Engineering</branch>
+
+        <semester>5th</semester>
+
+        <email>sumit@gmail.com</email>
+
+        <marks>85</marks>
+
+    </student>
+
+
+    <student id="S102">
+
+        <rollno>102</rollno>
+
+        <name>Rahul Kumar</name>
+
+        <branch>Information Technology</branch>
+
+        <semester>5th</semester>
+
+        <email>rahul@gmail.com</email>
+
+        <marks>90</marks>
+
+    </student>
+
+
+    <student id="S103">
+
+        <rollno>103</rollno>
+
+        <name>Aman Singh</name>
+
+        <branch>Electronics and Communication</branch>
+
+        <semester>5th</semester>
+
+        <email>aman@gmail.com</email>
+
+        <marks>88</marks>
+
+    </student>
+
+</students>

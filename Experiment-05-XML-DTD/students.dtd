@@ -1,0 +1,17 @@
+<!ELEMENT students (student+)>
+
+<!ELEMENT student (rollno, name, branch, semester, email, marks)>
+
+<!ATTLIST student id ID #REQUIRED>
+
+<!ELEMENT rollno (#PCDATA)>
+
+<!ELEMENT name (#PCDATA)>
+
+<!ELEMENT branch (#PCDATA)>
+
+<!ELEMENT semester (#PCDATA)>
+
+<!ELEMENT email (#PCDATA)>
+
+<!ELEMENT marks (#PCDATA)>
