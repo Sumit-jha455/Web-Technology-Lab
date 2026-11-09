@@ -37,9 +37,9 @@ A collection of Web Technology Laboratory experiments implemented as part of the
 | 01 | Institute Website | HTML | Completed |
 | 02 | Student Details Entry Form | HTML | Completed |
 | 03 | Responsive Website | HTML, CSS | Completed |
-| 04 | Form Validation | HTML, JavaScript | Pending |
-| 05 | XML, DTD and Stylesheet | XML, CSS/XSL | Pending |
-| 06 | Employee Information Bean | Java | Pending |
+| 04 | Form Validation | HTML, JavaScript | Completed |
+| 05 | XML, DTD and Stylesheet | XML, CSS/XSL | Completed |
+| 06 | Employee Information Bean | Java | Completed |
 | 07 | Command-Line Utility | Node.js | Pending |
 | 08 | MongoDB Aggregation | MongoDB | Pending |
 | 09 | Login Authentication using Cookies | Java Servlet | Pending |
